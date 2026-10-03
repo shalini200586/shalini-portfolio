@@ -5,36 +5,30 @@ export type Project = {
   tags: string[];
   github?: string;
   live?: string;
-  status: "live" | "building" | "coming-soon";
   featured?: boolean;
 };
 
-/** Edit this file to add your real projects. */
 export const projects: Project[] = [
   {
-    id: "project-1",
-    title: "Your First Project",
-    description:
-      "Replace this with a project you're proud of — what it does, what you built, and what you learned.",
-    tags: ["Next.js", "TypeScript", "API"],
-    status: "coming-soon",
+    id: "bain-enterprise",
+    title: "Bain Enterprise Platform",
+    description: "Full-stack enterprise features — React, backend APIs, Azure cloud, and AI-powered recruiting workflows.",
+    tags: ["React", "Azure", "Backend", "AI"],
     featured: true,
   },
   {
-    id: "project-2",
-    title: "Another Build",
-    description:
-      "Add a second project here. Link the GitHub repo and live demo when ready.",
-    tags: ["React", "Node.js"],
-    status: "building",
+    id: "amenify-automation",
+    title: "AI Browser Automation",
+    description: "Node.js + Playwright + Claude API platform with Slack & Sheets integrations.",
+    tags: ["Node.js", "Playwright", "Claude API"],
     featured: true,
   },
   {
-    id: "project-3",
-    title: "Side Experiment",
-    description:
-      "Even small experiments count — a tool, a clone, a hackathon idea. Show your curiosity.",
-    tags: ["JavaScript", "CSS"],
-    status: "coming-soon",
+    id: "portfolio",
+    title: "This Portfolio",
+    description: "Next.js, Three.js, GSAP, custom cursor, dark cinematic UI.",
+    tags: ["Next.js", "Three.js", "GSAP"],
+    github: "https://github.com/shalini200586/shalini-portfolio",
+    featured: true,
   },
 ];
