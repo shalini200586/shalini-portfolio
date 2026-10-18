@@ -11,39 +11,22 @@ import { SectionHeader } from "./SectionHeader";
 
 
 const highlights = [
-
   {
-
-    title: "Production software that ships",
-
-    desc: "At Bain, I build enterprise features end-to-end — React frontends, backend APIs, cloud infra, and AI-powered recruiting tools used by real teams.",
-
+    title: "Ships to production",
+    desc: "At Bain I build enterprise features end to end: React screens, backend APIs, cloud services, and AI tools that real teams use every day.",
   },
-
   {
-
-    title: "Full-stack, not just prompts",
-
-    desc: "React frontends, backend APIs, RBAC, and cloud infra. I own features end-to-end, not just the model layer.",
-
+    title: "AI that checks its own work",
+    desc: "Content Agent finds trending topics for a niche, checks every claim against its sources, and asks a person to approve each post before it goes anywhere.",
   },
-
   {
-
-    title: "Automation at scale",
-
-    desc: "At Amenify, I built an AI browser automation platform — Playwright, Claude API, Slack & Sheets — that replaced manual ops work.",
-
+    title: "Automation that saves hours",
+    desc: "At Amenify I built a browser automation platform with Playwright and Claude that connects Slack and Google Sheets to replace manual operations work.",
   },
-
   {
-
-    title: "Strong engineering foundation",
-
-    desc: "Solid DSA, systems thinking, and the discipline to write code that holds up in production.",
-
+    title: "Engineering you can rely on",
+    desc: "Strong fundamentals in data structures and systems, plus tests, clear documentation, and one-command setup so the work runs for someone else too.",
   },
-
 ];
 
 

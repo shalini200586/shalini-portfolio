@@ -12,7 +12,7 @@ export const site = {
     "Automation Engineer",
   ],
   tagline:
-    "I build reliable software — backend systems, full-stack apps, automation, and AI — that ships to production.",
+    "I build AI and software products that save people time, check their own work, and keep a human in control.",
   subtitle: "SDE Intern @ Bain & Company",
   education: "Computer Science @ IIT Patna · '27",
   focus: "Open to full-time AI Engineer & SDE roles",
