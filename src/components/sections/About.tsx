@@ -17,7 +17,7 @@ const highlights = [
   },
   {
     title: "AI that checks its own work",
-    desc: "Content Agent finds trending topics for a niche, checks every claim against its sources, and asks a person to approve each post before it goes anywhere.",
+    desc: "Content Agent finds trending topics for a niche, checks names and numbers in each draft against its sources, and needs a person to approve every post.",
   },
   {
     title: "Automation that saves hours",
